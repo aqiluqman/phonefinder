@@ -1,0 +1,283 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>PhoneFinder Arena</title>
+<style>
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial;
+	padding: 10px;
+	background: #f1f1f1;		
+}
+
+.logo {
+  float: left;
+}
+/* ~~ Top Navigation Bar ~~ */
+
+#navigation-container {
+  width: 1200px;
+  margin: 0 auto;
+  height: 70px;
+}
+
+.navigation-bar {
+  background-color: #7095B8;
+  height: 70px;
+  width: 100%;
+  text-align:center;
+}
+	
+.navigation-bar img{
+float:left;
+}
+	
+.navigation-bar ul {
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  display:inline-block;
+  vertical-align:top;
+}
+
+.navigation-bar li {
+  list-style-type: none;
+  padding: 0px;
+  height: 24px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  display: inline;
+}
+
+.navigation-bar li a {
+  color: black;
+  font-size: 16px;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  line-height: 70px;
+  padding: 5px 15px;
+  opacity: 0.7;
+}
+
+#menu {
+	float: right;
+}
+.navigation-bar a.active {
+	background-color:dimgray;
+	color: white;
+}
+	
+.header {
+	padding: 30px;
+	text-align: center;
+	background: white;
+}
+
+/* Change color on hover */
+.navigation-bar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.header h1 {
+  font-size: 30px;
+}
+	
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+table, td, th {
+		padding: 5px;
+	}
+a.nav {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+a.nav:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.previous {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+.next {
+  background-color: #7095B8;
+  color: white;
+}
+
+.round {
+  border-radius: 50%;
+}
+</style>
+	<link rel="icon" href="logo.png">
+</head>
+<body>
+	<div class="navigation-bar">
+    <div id="navigation-container">
+      <img src="logo.png">
+      <ul>
+        <li><a href="index.html" class="active" target="_self">Home</a></li>
+        <li><a href="flagship.html" target="_self">Flagship</a></li>
+        <li><a href="midrange.html" target="_self">Midrange</a></li>
+        <li><a href="budget.html" target="_self">Budget</a></li>
+        <li><a href="feedback.html" target="_self">Feedback</a></li>
+      </ul>
+    </div>
+		<img src="banner3.png" style="width:100%;object-fit: cover;" >
+	</div>
+	
+<div class="row">
+  <div class="leftcolumn">
+	  <div class="card">
+      <h2>OnePlus 7 Pro Review</h2>
+		<hr>
+      <h5>March 2, 2019</h5>
+		<p style="text-align: justify">
+			OnePlus has always sort of been a niche enthusiast's smartphone brand which may not be as popular as the majors, but it's carved a pretty nice niche for itself by delivering great smartphone hardware at equally great price points. The company released their first smartphone less than five years ago but today, with the experience gained over the past few iterations, OnePlus is really going after the top dogs in the business with the OnePlus 7 Pro.</p>
+		<center><table>
+			<tr>
+				<td><img src="op7front.jpg" style="width:400px;padding-right:10px;"></td>
+				<td><img src="op7back.jpg" style="width:400px;padding-left:10px;"></td>
+			</tr>
+			<tr>
+				<th><font color="grey"><i>Front View</i></font></th>
+				<th><font color="grey"><i>Back View</i></font></th>
+			</tr>
+		</table></center>
+	   <br> <a href="oneplusFlagship.html">Read more..</a>
+	  </div>
+	  <div class="card">
+		  <h2>Google Pixel 3a Review</h2>
+		<hr>
+      <h5>February 19, 2019</h5>
+		<p style="text-align: justify">
+			The Pixel 3a is Google's attempt to return to the affordable premium smartphone category. After sunsetting the Nexus program, Google moved on to the ultra-high-end segment with the launch of the original Pixel back in 2016.</p>
+		<center> <table>
+			<tr>
+				<td><img src="pixelfront.jpg" style="width:400px;padding-right:10px;"></td>
+				<td><img src="pixelback.jpg" style="width:400px;padding-left:10px;"></td>
+			</tr>
+			<tr>
+				<th><font color="grey"><i>Front View</i></font></th>
+				<th><font color="grey"><i>Back View</i></font></th>
+			</tr>
+		</table></center>
+	   <br> <a href="googleMidrange.html">Read more..</a>
+	  </div>
+	  <div class="card">
+		  <h2>Motorola One Review</h2>
+		<hr>
+      <h5>July 12, 2019</h5>
+		<p style="text-align: justify">
+			The Motorola One is the latest in an increasingly long line of mid-range Android phones to offer iPhone X looks at an affordable price point. It’s a smart, well-balanced phone with few glaring weaknesses.While its design largely holds its own with rivals from Huawei and co., however, there are a couple of shortfalls.</p>
+		<center> <table>
+			<tr>
+				<td><img src="motorolafront.jpg" style="width:400px;padding-right:10px;"></td>
+				<td><img src="motorolaback.jpg" style="width:400px;padding-left:10px;"></td>
+			</tr>
+			<tr>
+				<th><font color="grey"><i>Front View</i></font></th>
+				<th><font color="grey"><i>Back View</i></font></th>
+			</tr>
+		</table></center>
+	   <br> <a href="motorolaBudget.html">Read more..</a>
+	  </div><br>
+	  <center>
+      <a href="index2.html" class="next round nav">&#8250;</a></center>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h3>Upcoming Phone</h3>
+	  <video style="width:240px;height:200px;" autoplay="true" controls>
+			  <source src="op7pro.mp4" type="video/mp4">
+					  </video>
+		  <p>Introducing...OP7T coming this fall.</p>
+    </div>
+	  <div class="card">
+      <h3>Today's Podcast</h3>
+	  <audio controls>
+			  <source src="futuristicsmartphone.mp3" type="audio/mpeg">
+	  </audio>
+		  <br>
+		  <i>The most futuristic smartphone, starring Lew.</i>
+    </div>
+    <div class="card">
+      <h3>Latest Devices</h3>
+      <table>
+		  <tr>
+			  <td><a href="oneplusFlagship.html"><img src="oneplus-7t-pro.jpg" style="width:80px" alt="OnePlus 7 Pro"></a></td>
+			  <td><a href="xiaomiFlagship.html"><img src="xiaomi-redmi-8.jpg" style="width:80px" alt="Xiaomi Mi 9"></a></td>
+			  <td><a href="oppoBudget.html"><img src="oppo-k5.jpg" style="width:80px" alt="Oppo Reno Z"></a></td>
+		  </tr>
+		  <tr>
+			  <td><a href="samsungMidrange.html"><img src="lg-g8x-thinq.jpg" style="width:80px" alt="Samsung A50"></a></td>
+			  <td><a href="motorolaBudget.html"><img src="motorola-one-macro-10.jpg" style="width:80px" alt="Motorola One"></a></td>
+			  <td><a href="googleMidrange.html"><img src="google-pixel-3a.jpg" style="width:80px" alt="Google Pixel 3A"></a></td>
+		  </tr>
+		</table>
+    </div>
+  </div>
+		
+</div>
+	<div class="footer">
+		PhoneFinder &copy; All rights reserved.
+	</div>
+</body>
+</html>
